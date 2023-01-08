@@ -4,13 +4,24 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/temp
+/.vscode
 # testing
 /coverage
 
 # next.js
 /.next/
 /out/
+/prisma/
+/database.mongodb
+/pages/api/backend
+# PWA files
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
 
 # production
 /build
@@ -29,4 +40,10 @@ yarn-error.log*
 .env*.local
 
 # vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
 .vercel
