@@ -5,20 +5,14 @@
 @import "./styles/reset",
 "./styles/buttons",
 "./styles/flex",
-"./styles/forms",
 "./styles/layout",
 "./styles/position",
 "./styles/topography",
 "./styles/code",
-"./styles/ripple",
 "./styles/custom";
 
 @import "./styles/components/core";
-@import "./styles/components/footer";
-@import "./styles/components/collapse";
-@import "./styles/components/accordion";
 @import "./styles/components/modal";
-@import "./styles/components/tabs";
 @import "./styles/components/card";
 @import "./styles/components/slicedMenu";
 @import "./styles/components/listGroup";
@@ -31,8 +25,8 @@
     --text-muted: hsla(220, 12%, 43%, 0.8);
     --card-bg: #fbfbfb;
     --card-shadow: rgb(145 158 171 / 20%) 6px -7px 14px 0px, rgb(145 158 171 / 12%) -7px 7px 24px 6px;
-    --body-font: "ManRope", "Google Sans", san-serif;
-    --code-font: "Google Sans Mono", "Source Code Pro", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    --body-font: "Quicksand", "Source Sans Pro", san-serif;
+    --code-font: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     --drop-bg: hsl(0, 0%, 97%);
     --border-color: #8386972b;
     --code-color: #242424;
@@ -237,8 +231,7 @@ $background-color_11: var(--snow);
 }
 
 html {
-    font-family: $font-family_1;
-    font-size: 10px;
+    font-size: 16px;
     scroll-behavior: smooth;
 
     &::-webkit-scrollbar {
@@ -262,11 +255,10 @@ html {
 
 body {
     font-weight: 400;
-    font-size: 1.25rem;
     line-height: normal;
     background-color: var(--body-bg);
     color: var(--body-color);
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 1.7;
 
     font-family: var(--body-font);

@@ -8,6 +8,9 @@
       "@/src/*": ["src/*"],
       "@/project/*": ["./*"],
       "@backend/*": ["src/backend/*"],
+      "@libs/*": ["src/libs/*"],
+      "@models/*": ["src/models/*"],
+      "@middleware/*": ["src/middleware/*"],
       "@/*": ["./*"],
     },
     "target": "es5",
@@ -32,8 +35,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "pages/api/images/[image].js"  ],
+    "**/*.tsx" ],
   "exclude": [
     "node_modules"
   ]
