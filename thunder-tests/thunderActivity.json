@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "9b925007-cec5-4db8-a5f5-ea0a866ed695",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/result",
+    "url": "http://localhost:3000/api/result/add",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-01-18T19:47:14.462Z",
+    "modified": "2023-01-18T20:25:39.733Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"RollNo\":\"21dec002\",\n  \"Branch\": \"ECE_Dual\",\n  \"Batch\": 2021,\n  \"Name\": \"SNEHIL KUSHWAHA\",\n  \"semesters\": [\n    {\n      \"sgpi\": \"8.88\",\n      \"cgpi\": \"8.88\",\n      \"subjects\": [\n        {\n          \"name\": \"ENGINEERING WORKSHOP\",\n          \"code\": \"ME-102\",\n          \"cgpi\": 10\n        },\n        {\n          \"name\": \"ENGINEERING MATHEMATICS-I\",\n          \"code\": \"MA-111\",\n          \"cgpi\": 8\n        },\n        {\n          \"name\": \"COMMUNICATION SKILLS\",\n          \"code\": \"HS-101\",\n          \"cgpi\": 9\n        },\n        {\n          \"name\": \"COMMUNICATION SKILLS LAB\",\n          \"code\": \"HS-102\",\n          \"cgpi\": 9\n        },\n        {\n          \"name\": \"ENGINEERING CHEMISTRY\",\n          \"code\": \"CY-101\",\n          \"cgpi\": 9\n        },\n        {\n          \"name\": \"ENGINEERING CHEMISTRY LAB\",\n          \"code\": \"CY-102\",\n          \"cgpi\": 9\n        },\n        {\n          \"name\": \"MATERIAL SCIENCE &amp;ENGINEERING\",\n          \"code\": \"MS-101\",\n          \"cgpi\": 8\n        },\n        {\n          \"name\": \"ELECTRICAL ENGINEERING LAB\",\n          \"code\": \"EE-102\",\n          \"cgpi\": 10\n        },\n        {\n          \"name\": \"BASIC ELECTRICAL ENGINEERING\",\n          \"code\": \"EE-101\",\n          \"cgpi\": 9\n        }\n      ],\n      \"semester\": \"01\",\n      \"sgpi_total\": \"213\",\n      \"cgpi_total\": \"213\"\n    },\n    {\n      \"sgpi\": \"8.96\",\n      \"cgpi\": \"8.92\",\n      \"subjects\": [\n        {\n          \"name\": \"ENGINEERING GRAPHICS\",\n          \"code\": \"ME-101\",\n          \"cgpi\": 7\n        },\n        {\n          \"name\": \"ENGINEERING MATHEMATICS-II\",\n          \"code\": \"MA-121\",\n          \"cgpi\": 10\n        },\n        {\n          \"name\": \"ELECTRONICS ENGINEERING LAB\",\n          \"code\": \"EC-102\",\n          \"cgpi\": 10\n        },\n        {\n          \"name\": \"ENGINEERING PHYSICS\",\n          \"code\": \"PH-101\",\n          \"cgpi\": 8\n        },\n        {\n          \"name\": \"COMPUTER PROGRAMMING\",\n          \"code\": \"CS-101\",\n          \"cgpi\": 10\n        },\n        {\n          \"name\": \"COMPUTER PROGRAMMING LAB\",\n          \"code\": \"CS-102\",\n          \"cgpi\": 9\n        },\n        {\n          \"name\": \"ENGINEERING PHYSICS LAB\",\n          \"code\": \"PH-102\",\n          \"cgpi\": 10\n        },\n        {\n          \"name\": \"BASIC ELECTRONICS ENGINEERING\",\n          \"code\": \"EC-101\",\n          \"cgpi\": 9\n        },\n        {\n          \"name\": \"APPLIED MECHANICS\",\n          \"code\": \"CE-101\",\n          \"cgpi\": 9\n        }\n      ],\n      \"semester\": \"02\",\n      \"sgpi_total\": \"215\",\n      \"cgpi_total\": \"428\"\n    }\n  ]\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

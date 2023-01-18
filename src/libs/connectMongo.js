@@ -16,7 +16,8 @@ if (!MONGODB_DB) {
         'Please define the MONGODB_DB environment variable inside .env'
     )
 }
+mongoose.set("strictQuery", false);
 
-const connectMongo = async (db) => mongoose.connect(MONGODB_URI + "/" + db ?? MONGODB_DB);
+const connectMongo = async (db) => mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 export default connectMongo;
